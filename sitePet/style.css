@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* 1- Config padrao para resetar a pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+}
+/* 1- */
+
+
+.cabecalho {
+    background-color: #FF9A6C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 200px;
+    
+}
+
+.itens {
+    display: flex;
+    gap: 50px;
+
+    
+    
+}
+
+.cabecalho-item {
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.conteudo {
+    background: url("wave\(1\).svg") no-repeat bottom center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.conteudo-escrito h2 {
+    font-family: "Montserrat", serif;
+    font-size: 32px;
+    padding-bottom: 32px;
+    font-weight: 600;
+    color: #263138;
+
+
+}
+
+.conteudo-escrito h3 {
+    line-height: 2;
+    font-size: 16px;
+    padding-bottom: 32px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+
+}
+
+/* From Uiverse.io by Codecite */ 
+.btn {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+    box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    color: white;
+    margin-right: 30px;
+  }
+  
+  .btn:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  .btn:active {
+    opacity: 0.5;
+  }
+
+.link-clinica {
+    color: #FF725E;
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+    text-decoration: underline;
+}
+
+
+ul {
+  list-style-type: disc; /* Usa marcadores padrão */
+  padding-left: 20px; /* Ajusta a indentação */
+}
+li {
+  font-size: 16px; /* Ajusta o tamanho da fonte */
+  margin-bottom: 5px; /* Adiciona um pequeno espaçamento entre os itens */
+}
+
+.conteudo-clinica {
+  display: flex;
+  flex-direction: row;
+  margin: 80px;
+
+}
+
+.clinica-escrito {
+  line-height: 2;
+}
+
+
+
+.clinica-escrito h2 {
+  color: #263138;
+  font-weight: 600;
+}
+
+.conteudo-petshop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.petshop-escrito {
+  margin-left: 500px;
+  margin-right: 500px;
+  line-height: 2;
+  margin-top: 100px;
+}
+
+.titulo-petshop {
+  color: #263138;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+
+.accordion {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.accordion-item {
+  border: 1px solid #ff4d4d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  transition: background 0.3s;
+}
+
+.accordion-header:hover {
+  background-color: #ffe6e6;
+}
+
+.accordion-content {
+  display: none;
+  padding: 15px;
+  border-top: 1px solid #ff4d4d;
+  background-color: #fff;
+}
+
+.active {
+  display: block;
+}
+
+.duvida {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  
+
+}
+
+.duvida-titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  color: #263138;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.duvida-img {
+  margin-left: 200px;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Distribui o espaço entre as colunas */
+  background-color: #ffe6e0; /* Cor de fundo */
+  padding: 40px 10%;
+  
+}
+
+
+.footer-container p, .footer-container a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  display: block; /* Faz os links ficarem em colunas */
+  margin-bottom: 8px;
+}
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+  
